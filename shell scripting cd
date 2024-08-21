@@ -1,0 +1,5 @@
+# printing single variable using shell sripting command
+echo "Enter name"
+read 
+echo "Entered name is : $name"
+
