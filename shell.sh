@@ -13,3 +13,8 @@ echo "Enter names :"
 read -a names
 #-a is used to read input from the array
 echo "Names : ${names[0], names[1]}"
+
+# Using $REPLY
+echo "Enter name : "
+read
+echo "Name : $REPLY"
